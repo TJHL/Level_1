@@ -2,17 +2,15 @@
 public class TeaMaker {
 
 	/* Figure out how to make a cup of tea using the classes below */
-	public static void main(String[] args){
-	TeaBag teaseason= new TeaBag( "Mint");
-	Kettle burntbottom= new Kettle();
-	Cup justwashed = new Cup();
-	burntbottom.getWater();
-	burntbottom.boil();
-	justwashed.makeTea(teaseason, burntbottom.getWater());
-	
-	
-	
-}
+	public static void main(String[] args) {
+		TeaBag teaseason = new TeaBag("Mint");
+		Kettle burntbottom = new Kettle();
+		Cup justwashed = new Cup();
+		burntbottom.getWater();
+		burntbottom.boil();
+		justwashed.makeTea(teaseason, burntbottom.getWater());
+
+	}
 }
 
 class TeaBag {
@@ -70,5 +68,3 @@ class Cup {
 	}
 
 }
-
-
