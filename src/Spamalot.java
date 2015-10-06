@@ -74,7 +74,7 @@ public class Spamalot implements ActionListener {
 
 	public void actionPerformed(ActionEvent e) {
 		if (e.getSource() == button) {
-
+			sendSpam(String recipient, String subject, String content)
 		}
 	}
 }
