@@ -7,5 +7,6 @@
 	<classpathentry kind="lib" path="lib/mail.jar"/>
 	<classpathentry exported="true" kind="con" path="org.eclipse.jdt.junit.JUNIT_CONTAINER/4"/>
 	<classpathentry exported="true" kind="lib" path="/Users/Guest/Google Drive/league-jars/javazoom.jar"/>
+	<classpathentry kind="lib" path="/Users/Guest/Google Drive/league-jars/TeachingKidsProgramming - unicorn.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
