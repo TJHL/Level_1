@@ -2,11 +2,8 @@
 <classpath>
 	<classpathentry kind="src" path="src"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
-	<classpathentry exported="true" kind="lib" path="/Users/league/Google Drive/league-jars/TeachingKidsProgramming - unicorn.jar"/>
 	<classpathentry exported="true" kind="lib" path="lib/twitter4j-core-3.0.5.jar"/>
 	<classpathentry kind="lib" path="lib/mail.jar"/>
 	<classpathentry exported="true" kind="con" path="org.eclipse.jdt.junit.JUNIT_CONTAINER/4"/>
-	<classpathentry exported="true" kind="lib" path="/Users/league/Google Drive/league-jars/gridworld.jar"/>
-	<classpathentry exported="true" kind="lib" path="/Users/league/Google Drive/league-jars/javazoom.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
