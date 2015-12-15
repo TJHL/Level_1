@@ -1,8 +1,8 @@
+
 //Copyright Wintriss Technical Schools 2013
 import java.applet.AudioClip;
 import java.awt.Dimension;
 import java.awt.Graphics;
-import java.awt.Robot;
 import java.awt.event.MouseEvent;
 import java.awt.event.MouseMotionListener;
 import java.awt.image.BufferedImage;
@@ -14,8 +14,7 @@ import javax.swing.JOptionPane;
 import javax.swing.JPanel;
 import javax.swing.SwingUtilities;
 
-public class Santa_emotions extends JPanel implements Runnable,
-		MouseMotionListener {
+public class Santa_emotions extends JPanel implements Runnable, MouseMotionListener {
 
 	BufferedImage maze;
 	final int frameWidth = 600;
@@ -29,7 +28,6 @@ public class Santa_emotions extends JPanel implements Runnable,
 
 	}
 
-	@Override
 	public void mouseMoved(MouseEvent e) {
 		int mouseX = e.getX();
 		int mouseY = e.getY();
@@ -44,10 +42,8 @@ public class Santa_emotions extends JPanel implements Runnable,
 			JOptionPane.showMessageDialog(null, "HO, HO, HO!");
 		}
 		if (mouseColor == White) {
-			JOptionPane.showMessageDialog(null,
-					"What the- MY BEARD IS STUCK IN THE CHIMINY!!!!!!");
-			AudioClip sound = JApplet.newAudioClip(getClass().getResource(
-					"Stuck Santa.aif"));
+			JOptionPane.showMessageDialog(null, "What the- MY BEARD IS STUCK IN THE CHIMINY!!!!!!");
+			AudioClip sound = JApplet.newAudioClip(getClass().getResource("Stuck Santa.aif"));
 
 			sound.play();
 		}

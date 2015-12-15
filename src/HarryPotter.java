@@ -34,7 +34,7 @@ public class HarryPotter {
 		wizard.spyOnSnape();
 		// 4. become visible again
 		wizard.makeInvisible(false);
-		// 5. cast a ÒstupefyÓ spell
+		// 5. cast a ï¿½stupefyï¿½ spell
 		wizard.castSpell("stupefy");
 	}
 
