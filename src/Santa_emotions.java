@@ -68,7 +68,6 @@ public class Santa_emotions extends JPanel implements Runnable, MouseMotionListe
 		SwingUtilities.invokeLater(new Santa_emotions());
 	}
 
-	@Override
 	public void run() {
 		JFrame frame = new JFrame("Emotional santa");
 		frame.add(this);
@@ -79,12 +78,10 @@ public class Santa_emotions extends JPanel implements Runnable, MouseMotionListe
 		frame.setVisible(true);
 	}
 
-	@Override
 	public void paintComponent(Graphics g) {
 		g.drawImage(maze, 0, 0, null);
 	}
 
-	@Override
 	public void mouseDragged(MouseEvent e) {
 
 	}
