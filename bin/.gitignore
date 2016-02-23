@@ -3,7 +3,11 @@
 /84697__cmusounddesign__moo.wav
 /AnimalJumping.class
 /Array.class
+/Backpack.class
 /BinaryConverter.class
+/Box.class
+/Bunny.class
+/Bunnyhopper.class
 /Candyman.class
 /Cat_Qestion.class
 /Cats.class
@@ -12,7 +16,6 @@
 /ChuckleClicker2.class
 /CowTimer.class
 /CowTimer2.class
-/Cup.class
 /DizzyTortoise.class
 /Drum top.jpg
 /Drum_kit.class
@@ -33,6 +36,27 @@
 /Homes.class
 /ICCEEECREAMMMMMMMMM!!!!!!!!.jpg
 /Jeopardy.class
+/Move mouse over santa.jar
+/POPCORNNNNN!!!!.jpeg
+/Pencil.class
+/Present.class
+/Rise of the Living Bread.mp3
+/Ruler.class
+/S.jpg
+/Screen Shot 2015-10-12 at 5.57.42 PM.png
+/Screenshot.png
+/Stuck Santa.aif
+/Supplies.class
+/Textbook.class
+/Very scare maze.png
+/cystalball.jpg
+/drum kit 1 - 1:12:15, 7.42 PM.aif
+/imagepart.png
+/magic-box.jpg
+/santa6.png
+/turkey-with-brown-hat.png
+/ykw pic quiz.jar
+/Cup.class
 /Joke_Buttons.class
 /Jukebox.class
 /Kettle$Water.class
@@ -43,23 +67,19 @@
 /Minion.class
 /MinionTest.class
 /Month.class
-/Move mouse over santa.jar
 /Movie.class
 /NastySuprize.class
 /NetFlix.class
 /NetflixQueue.class
-/POPCORNNNNN!!!!.jpeg
 /Photo_Quiz.class
 /PictureDisplay.class
 /PigLatinTranslator.class
 /Popcorn.class
-/Rise of the Living Bread.mp3
-/S.jpg
 /Santa_emotions.class
 /ScaryMaze.class
-/Screen Shot 2015-10-12 at 5.57.42 PM.png
-/Screenshot.png
 /SeaCreature.class
+/SeaCreature2.class
+/SeaCreature2Runner.class
 /Sensitivekeyboard.class
 /ShineyObjects.class
 /SlotMachine.class
@@ -69,7 +89,6 @@
 /Spamalot$1.class
 /Spamalot.class
 /Staker.class
-/Stuck Santa.aif
 /Superperson.class
 /Superpersonrunner.class
 /TeaBag.class
@@ -82,34 +101,19 @@
 /Turkeyday.class
 /TurtlePond.class
 /Typingtutor.class
-/Very scare maze.png
 /WritingMethods.class
 /animal.class
 /cat.class
-/cystalball.jpg
 /dontknowwhattoname.class
-/drum kit 1 - 1:12:15, 7.42 PM.aif
 /frist_array.class
-/imagepart.png
-/magic-box.jpg
 /namethingy.class
 /person.class
 /photo_quiz_thingy.class
-/santa6.png
 /soundtrack_thingy_that_i_dont_care_about.class
 /thingy_with_dontknowwhattoname.class
 /tortiose_again.class
 /town.class
-/turkey-with-brown-hat.png
-/ykw pic quiz.jar
-/Bunny.class
-/Bunnyhopper.class
-/SeaCreature2.class
-/SeaCreature2Runner.class
-/Box.class
-/Present.class
-/Backpack.class
-/Pencil.class
-/Ruler.class
-/Supplies.class
-/Textbook.class
+/Dwarf.class
+/DwarfRunner.class
+/CupOfSoup.class
+/SoupMaker.class
