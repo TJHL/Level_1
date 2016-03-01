@@ -1,6 +1,23 @@
 / Three Days to Live.mp3
 /233123__jarredgibb__turkey-gobble-96khz.wav
 /84697__cmusounddesign__moo.wav
+/Drum top.jpg
+/ICCEEECREAMMMMMMMMM!!!!!!!!.jpg
+/Move mouse over santa.jar
+/POPCORNNNNN!!!!.jpeg
+/Rise of the Living Bread.mp3
+/S.jpg
+/Screen Shot 2015-10-12 at 5.57.42 PM.png
+/Screenshot.png
+/Stuck Santa.aif
+/Very scare maze.png
+/cystalball.jpg
+/drum kit 1 - 1:12:15, 7.42 PM.aif
+/imagepart.png
+/magic-box.jpg
+/santa6.png
+/turkey-with-brown-hat.png
+/ykw pic quiz.jar
 /AnimalJumping.class
 /Array.class
 /Backpack.class
@@ -16,12 +33,14 @@
 /ChuckleClicker2.class
 /CowTimer.class
 /CowTimer2.class
+/Cup.class
 /DizzyTortoise.class
-/Drum top.jpg
 /Drum_kit.class
 /Dude.class
 /DudeTest.class
 /DuelingButtons.class
+/Dwarf.class
+/DwarfRunner.class
 /Feed_The_Tortoise_MultyPlayer.class
 /Fortue_cookie.class
 /FortuneTeller.class
@@ -34,29 +53,7 @@
 /HEHE.class
 /HarryPotter.class
 /Homes.class
-/ICCEEECREAMMMMMMMMM!!!!!!!!.jpg
 /Jeopardy.class
-/Move mouse over santa.jar
-/POPCORNNNNN!!!!.jpeg
-/Pencil.class
-/Present.class
-/Rise of the Living Bread.mp3
-/Ruler.class
-/S.jpg
-/Screen Shot 2015-10-12 at 5.57.42 PM.png
-/Screenshot.png
-/Stuck Santa.aif
-/Supplies.class
-/Textbook.class
-/Very scare maze.png
-/cystalball.jpg
-/drum kit 1 - 1:12:15, 7.42 PM.aif
-/imagepart.png
-/magic-box.jpg
-/santa6.png
-/turkey-with-brown-hat.png
-/ykw pic quiz.jar
-/Cup.class
 /Joke_Buttons.class
 /Jukebox.class
 /Kettle$Water.class
@@ -71,10 +68,13 @@
 /NastySuprize.class
 /NetFlix.class
 /NetflixQueue.class
+/Pencil.class
 /Photo_Quiz.class
 /PictureDisplay.class
 /PigLatinTranslator.class
 /Popcorn.class
+/Present.class
+/Ruler.class
 /Santa_emotions.class
 /ScaryMaze.class
 /SeaCreature.class
@@ -86,14 +86,17 @@
 /Smurf.class
 /SmurfRunner.class
 /Song.class
+/SoupMaker.class
 /Spamalot$1.class
 /Spamalot.class
 /Staker.class
 /Superperson.class
 /Superpersonrunner.class
+/Supplies.class
 /TeaBag.class
 /TeaMaker.class
 /Test_thingy.class
+/Textbook.class
 /ThatWasEasy.class
 /Toby.class
 /Tortions_Again.class
@@ -113,7 +116,6 @@
 /thingy_with_dontknowwhattoname.class
 /tortiose_again.class
 /town.class
-/Dwarf.class
-/DwarfRunner.class
-/CupOfSoup.class
-/SoupMaker.class
+/Popcorn2.class
+/Microwave2.class
+/DuellingButtons2.class
