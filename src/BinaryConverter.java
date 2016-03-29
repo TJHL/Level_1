@@ -7,11 +7,9 @@ import javax.swing.JPanel;
 import javax.swing.JTextField;
 
 /**
- * We’re going to make an application that converts binary codes (8-bits) into
- * letters. You’ll need a JFrame and a JPanel. On the panel, put two text fields
- * and a button. A text field is made like this: JTextField answer = new
- * JTextField(20); It may look like this or you might have a better layout in
- * mind.
+ * We’re going to make an application that converts binary codes (8-bits) into letters. You’ll need a JFrame and a
+ * JPanel. On the panel, put two text fields and a button. A text field is made like this: JTextField answer = new
+ * JTextField(20); It may look like this or you might have a better layout in mind.
  */
 
 public class BinaryConverter {
@@ -30,7 +28,7 @@ public class BinaryConverter {
 		frame.add(panel);
 		panel.add(input);
 		panel.add(button);
-		button.panel.add(output);
+		// button.panel.add(output);
 		frame.pack();
 	}
 
