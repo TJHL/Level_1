@@ -4,13 +4,13 @@ public class CoinChanger {
 	String type;
 
 	public static void main(String[] args) {
-		CoinChanger pennychanger = new CoinChanger(1, "Pennys");
-		CoinChanger nickelchanger = new CoinChanger(5, "Nickles");
-		CoinChanger dimechanger = new CoinChanger(10, "Dimes");
-		CoinChanger quarterchanger = new CoinChanger(25, "Quarters");
-		pennychanger.addcoins(10);
+		CoinChanger penny = new CoinChanger(1, "Pennys");
+		CoinChanger nickel = new CoinChanger(5, "Nickles");
+		CoinChanger dime = new CoinChanger(10, "Dimes");
+		CoinChanger quarter = new CoinChanger(25, "Quarters");
+		penny.addcoins(10);
 
-		pennychanger.despensecoin();
+		penny.despensecoin();
 	}
 
 	CoinChanger(int coinvalu, String type) {
@@ -21,7 +21,12 @@ public class CoinChanger {
 	void addcoins(int stock) {
 		coinstock = coinstock + stock;
 		System.out.println(stock + " coins have been added to the coinchanger.");
-		System.out.println(coinstock + "stock has this many coins");
+		System.out.println(coinstock + " stock has this many coins");
+	}
+
+	boolean hascoin() {
+		return coinstock > 0;
+
 	}
 
 	void despensecoin() {
@@ -30,7 +35,7 @@ public class CoinChanger {
 					+ "has ran out of change. Please wait patualy untill a operrater can refill this machine");
 		} else {
 			coinstock = coinstock - 1;
-			System.out.println("one coin dispensed");
+			System.out.println("one coin dispensed: " + coinvalu);
 		}
 	}
 }
