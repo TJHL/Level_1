@@ -1,4 +1,5 @@
 import java.awt.Color;
+import java.awt.Font;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
@@ -13,14 +14,16 @@ public class TextChanger implements ActionListener {
 	JButton buddon = new JButton("Blue");
 	JButton bubbon = new JButton("Green");
 	JLabel label = new JLabel("I don't want my color to change!");
+	JFrame frame;
 	int question;
 
 	public static void main(String[] args) {
 		TextChanger textchanger = new TextChanger();
+		System.out.println("hi");
 	}
 
-	TextChanger() {
-		JFrame frame = new JFrame();
+	public TextChanger() {
+		frame = new JFrame();
 		JPanel panel = new JPanel();
 		frame.add(panel);
 		panel.add(button);
@@ -51,6 +54,7 @@ public class TextChanger implements ActionListener {
 			button.setText("Black");
 			buddon.setText("Red");
 			bubbon.setText("Green");
+
 		}
 		if (question == 1) {
 			label.setOpaque(true);
@@ -65,7 +69,41 @@ public class TextChanger implements ActionListener {
 			if (buttonPressed == bubbon) {
 				label.setBackground(Color.GREEN);
 			}
+			button.setText("Times New Roman");
+			buddon.setText("Helvetica");
+			bubbon.setText("Comic Sans MS");
+			frame.pack();
+		}
+		if (question == 2) {
+			label.setOpaque(true);
+			label.setText("FINE!!! THE WIFI PASSWORD IS : code4life");
+			if (buttonPressed == button) {
+				label.setFont(new Font("Times New Roman", Font.PLAIN, 12));
+			}
+			if (buttonPressed == buddon) {
+				label.setFont(new Font("Helvetica", Font.PLAIN, 12));
+			}
+			if (buttonPressed == bubbon) {
+				label.setFont(new Font("Comic Sans MS", Font.PLAIN, 12));
+			}
+			frame.pack();
+		}
 
+		if (question >= 3) {
+			label.setOpaque(true);
+			label.setText(
+					"NOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO"
+							+ "OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO");
+			if (buttonPressed == button) {
+				label.setFont(new Font("Times New Roman", Font.PLAIN, 12));
+			}
+			if (buttonPressed == buddon) {
+				label.setFont(new Font("Helvetica", Font.PLAIN, 12));
+			}
+			if (buttonPressed == bubbon) {
+				label.setFont(new Font("Comic Sans MS", Font.PLAIN, 12));
+			}
+			frame.pack();
 		}
 		question++;
 	}
