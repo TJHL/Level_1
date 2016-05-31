@@ -53,8 +53,7 @@ public class BinaryConverter implements ActionListener {
 
 	public void actionPerformed(ActionEvent e) {
 		A = input.getText();
-		convert(A);
-		output.setText(A);
+		output.setText(convert(A));
 
 	}
 
