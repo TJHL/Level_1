@@ -40,7 +40,7 @@ public class Jeopardy implements ActionListener {
 		frame.setVisible(true);
 		frame.setTitle("Jeoprady");
 		JPanel topic = new JPanel();
-		topic = createHeader("Video games");
+		topic = createHeader("Tanks and aviation");
 		quizPanel.add(topic);
 		frame.add(quizPanel);
 		firstButton = createButton("300");
@@ -78,14 +78,15 @@ public class Jeopardy implements ActionListener {
 		// Use the method that plays the jeopardy theme music.
 		JButton buttonPressed = (JButton) arg0.getSource();
 		if (buttonPressed == firstButton) {
-			askQuestion("HI", "BAD", 300);
-			// Fill in the askQuestion() method. When you play the game, the
-			// score
-			// should change.
-
+			askQuestion("A High Explosive Anti-Tank shell", "What is a HEAT shell", 300);
+			firstButton.setText(null);
 		}
-		// Or if the buttonPressed was the secondButton
-
+		if (buttonPressed == secondButton) {
+			askQuestion(
+					"This American plane had four 20mm cannons, and was the original version of one of the most succsesfull plane of WW2",
+					"What is the P-51", 600);
+			secondButton.setText(null);
+		}
 		// Call the askQuestionRecipe with a harder question
 
 		// Clear the button text (set the button text to nothing)
@@ -93,17 +94,17 @@ public class Jeopardy implements ActionListener {
 	}
 
 	private void askQuestion(String question, String correctAnswer, int prizeMoney) {
-		String A = JOptionPane.showInputDialog("Whats two plus two");
-		if (A.equals("4")) {
-			score = score + 300;
+		String A = JOptionPane.showInputDialog(question);
+		if (A.equals(correctAnswer)) {
+			score = score + prizeMoney;
 			updateScore();
 			JOptionPane.showMessageDialog(null, "YOUR RIGHT");
 		}
-
-		else
-			score = score - 300;
-		JOptionPane.showMessageDialog(null, "NO");
-		updateScore();
+		if (!(A.equals(correctAnswer))) {
+			score = score - prizeMoney;
+			JOptionPane.showMessageDialog(null, "NO!");
+			updateScore();
+		}
 	}
 
 	public void playJeopardyTheme() {
