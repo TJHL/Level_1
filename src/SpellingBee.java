@@ -6,20 +6,35 @@ import java.io.LineNumberReader;
 import java.util.ArrayList;
 import java.util.Random;
 
+import javax.swing.JOptionPane;
+
 public class SpellingBee {
+	int score = 0;
 	int lines;
 	ArrayList<String> words = new ArrayList<>();
 
 	/*
-	 * Get a random word using the randomWord() method and ask the user how to
-	 * spell it using the speak() method. If the user spells it right move on to
-	 * a new word, but if they do not spell it right ask again. The only place
-	 * that you need to write code in is the stuffForYouToDo() Method
+	 * If the user spells it right move on to a new word, but if they do not
+	 * spell it right ask again. The only place that you need to write code in
+	 * is the stuffForYouToDo() Method
 	 */
 	public void stuffForYouToDo() {
-		// You write code in here
 		String word = randomWord();
-		Speak();
+		Speak(word);
+		String a = JOptionPane.showInputDialog("Spell the word.");
+		if (a.equals(word)) {
+			System.out.println("Good job!");
+			stuffForYouToDo();
+		}
+		if (!a.equals(word)) {
+			System.out.println("You suck");
+			score = score + 1;
+			if (score >= 2) {
+				System.exit(0);
+			}
+			stuffForYouToDo();
+		}
+
 	}
 
 	public String randomWord() {
@@ -35,8 +50,6 @@ public class SpellingBee {
 			LineNumberReader lnr = new LineNumberReader(new FileReader(new File("/usr/share/dict/words")));
 			lnr.skip(Long.MAX_VALUE);// Skip to the end
 			lines = lnr.getLineNumber();// Get last line number
-			speakNoWait(lines + " words loaded");
-			System.out.println("Number of words: " + lines);
 			lnr.close();
 			BufferedReader br = new BufferedReader(new FileReader(new File("/usr/share/dict/words")));
 			for (int i = 0; i < lines; i++) {
@@ -68,5 +81,4 @@ public class SpellingBee {
 			e.printStackTrace();
 		}
 	}
-
 }
