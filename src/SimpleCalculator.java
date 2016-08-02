@@ -14,4 +14,14 @@ public class SimpleCalculator {
 	JButton bunnon = new JButton();
 	JButton bummon = new JButton();
 	JLabel label = new JLabel();
+
+	public void hi() {
+		frame.pack();
+		frame.setVisible(true);
+	}
+
+	public static void main(String[] args) {
+
+	}
+
 }
