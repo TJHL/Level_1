@@ -43,7 +43,7 @@ public class ColorTeacher implements ActionListener {
 	}
 
 	public void actionPerformed(ActionEvent arg0) {
-		System.out.println(arg0.getSource());
+		System.out.println(arg0);
 	}
 
 	void speak(String words) {
