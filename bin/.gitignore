@@ -20,7 +20,6 @@
 /CoinChanger.class
 /CowTimer.class
 /CowTimer2.class
-/Cup.class
 /CutenessTV.class
 /DizzyTortoise.class
 /Drum top.jpg
@@ -48,8 +47,6 @@
 /Jeopardy.class
 /Joke_Buttons.class
 /Jukebox.class
-/Kettle$Water.class
-/Kettle.class
 /MagicBox.class
 /Main.class
 /Microwave.class
@@ -92,18 +89,29 @@
 /Spamalot.class
 /Spamalot2$1.class
 /Spamalot2.class
+/Stuck Santa.aif
+/Supplies.class
+/Textbook.class
+/Very scare maze.png
+/cystalball.jpg
+/drum kit 1 - 1:12:15, 7.42 PM.aif
+/imagepart.png
+/magic-box.jpg
+/santa6.png
+/turkey-with-brown-hat.png
+/ykw pic quiz.jar
+/Cup.class
+/Kettle$Water.class
+/Kettle.class
 /SpellingBee.class
 /Staker.class
-/Stuck Santa.aif
 /Superperson.class
 /Superpersonrunner.class
-/Supplies.class
 /TeaBag.class
 /TeaMaker.class
 /TeaParty.class
 /Test_thingy.class
 /TextChanger.class
-/Textbook.class
 /ThatWasEasy.class
 /Toby.class
 /Tortions_Again.class
@@ -111,24 +119,17 @@
 /Turkeyday.class
 /TurtlePond.class
 /Typingtutor.class
-/Very scare maze.png
 /WhackAMole.class
 /WritingMethods.class
 /animal.class
 /cat.class
-/cystalball.jpg
 /dontknowwhattoname.class
-/drum kit 1 - 1:12:15, 7.42 PM.aif
 /frist_array.class
-/imagepart.png
-/magic-box.jpg
 /namethingy.class
 /person.class
 /photo_quiz_thingy.class
-/santa6.png
 /soundtrack_thingy_that_i_dont_care_about.class
 /thingy_with_dontknowwhattoname.class
 /tortiose_again.class
 /town.class
-/turkey-with-brown-hat.png
-/ykw pic quiz.jar
+/ColorTeacher.class
