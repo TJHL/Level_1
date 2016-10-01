@@ -67,12 +67,12 @@ public class SimpleCalculator implements ActionListener {
 			b = Integer.parseInt(two.getText());
 			label.setText("" + (a / b));
 			frame.pack();
-			if (bummon == e.getSource() && a == 0) {
-				System.exit(0);
-			}
-			if (bummon == e.getSource() && b == 0) {
-				System.exit(0);
-			}
+			// if (bummon == e.getSource() && a == 0) {
+			// System.exit(0);
+			// }
+			// if (bummon == e.getSource() && b == 0) {
+			// System.exit(0);
+			// }
 
 		}
 

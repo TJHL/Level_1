@@ -6,44 +6,29 @@ public class Enemy {
 	String type;
 
 	public static void main(String[] args) {
-		Enemy cow = new Enemy("Sheep");
-		// System.out.println(cow.type);
-		// System.out.println(cow.health);
-		// System.out.println(cow.damage);
-		// System.out.println(cow.moveSpeed);
-
+		Enemy cow = new Enemy("Cow");
 		Enemy wolf = new Enemy("Wolf");
-		// System.out.println(wolf.type);
-		// System.out.println(wolf.health);
-		// System.out.println(wolf.damage);
-		// System.out.println(wolf.moveSpeed);
+		Enemy sheep = new Enemy("Sheep");
 
 		// for (int i = 4; i > 0; i--) {
 		// int a = cow.attack(wolf);
 		// System.out.println(wolf.health);
 		// }
-		for (int i = 0; i < 1000; i++) {
-			if (i % cow.moveSpeed == 0) {
-				cow.attack(wolf);
-				boolean b = wolf.isAlive();
-				if (b == false) {
-					System.out.println("Enemy wolf has \"fainted\"");
-					break;
-				}
-				System.out.println("The wolf health is: " + wolf.health);
+		/*
+		 * for (int i = 0; i < 1000; i++) { if (i % cow.moveSpeed == 0) {
+		 * cow.attack(wolf); boolean b = wolf.isAlive(); if (b == false) {
+		 * System.out.println("Enemy wolf has \"fainted\""); break; }
+		 * System.out.println("The wolf health is: " + wolf.health);
+		 * 
+		 * } if (i % wolf.moveSpeed == 0) { wolf.attack(cow); boolean c =
+		 * cow.isAlive(); if (c == false) { System.out.println(
+		 * "Enemy cow has \"fainted\""); break; } System.out.println(
+		 * "The cow health is: " + cow.health); } }
+		 */
+	}
 
-			}
-			if (i % wolf.moveSpeed == 0) {
-				wolf.attack(cow);
-				boolean c = cow.isAlive();
-				if (c == false) {
-					System.out.println("Enemy cow has \"fainted\"");
-					break;
-				}
-				System.out.println("The cow health is: " + cow.health);
-			}
-		}
-
+	void reportMyStatus() {
+		System.out.println(this.type + " " + this.health);
 	}
 
 	Enemy(String type) {
@@ -68,9 +53,24 @@ public class Enemy {
 	int attack(Enemy target) {
 		int damageDealt;
 		damageDealt = damage;
-		// System.out.println(damageDealt);
 		target.health -= damageDealt;
 		return damageDealt;
+	}
+
+	int gethealth() {
+		return health;
+	}
+
+	void sethealth(int health) {
+		this.health = health;
+	}
+
+	void attack(Player player) {
+		int damageDealt;
+		damageDealt = damage;
+		int playerHealth = player.gethealth();
+		playerHealth -= damageDealt;
+		player.sethealth(playerHealth);
 	}
 
 	boolean isAlive() {
